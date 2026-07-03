@@ -1,0 +1,100 @@
+ which git
+   49  sudo yum instal git
+   50  sudo yum install git
+   51  which git
+   52  git --version
+   53  clear
+   54  mkdir project-1
+   55  ll
+   56  cd project-1/
+   57  pwd
+   58  touch file.txt
+   59  ll
+   60  touch file1.txt
+   61  touch file2.txt
+   62  touch file3.txt
+   63  ll
+   64  git init
+   65  ll
+   66  ll -a
+   67  git config --global user.name "yogesh"
+   68  git config --global user.email "yogesh@gamil.com"
+   69  git add file.txt 
+   70  git status
+   71  git ad .
+   72  git status
+   73  git add .
+   74  git status
+   75  git rm --cached file.txt 
+   76  git status
+   77  git commit -m "this is my first data-eng project"
+   78  git push origin master
+   79  cd ..
+   80  pwd
+   81  git clone https://github.com/yogeshyadava/9am-batch-Data-eng.git
+   82  ll
+   83  cd 9am-batch-Data-eng/
+   84  mv /home/ec2-user/project-1/ /home/ec2-user/9am-batch-Data-eng/
+   85  pwd
+   86  ll
+   87  git add .
+   88  git init
+   89  git add .
+   90  git status
+   91  git commit -m "This is data-eng project"
+   92  git log
+   93  git push origin main
+   94  mkdir gitone
+   95  cd gitone/
+   96  file1.txt
+   97  touch file1.txt
+   98  git add .
+   99  git commit -m "update-2"
+  100  git push origin main
+  101  git branch
+  102  git branch dev
+  103  git branch
+  104  git checkout dev
+  105  git branch
+  106  git checkout -b prod
+  107  git branch
+  108  git checkout dev
+  109  touch devfile1.txt
+  110  git add .
+  111  git commit -m "dev-commit-1"
+  112  git push origin dev
+  113  ll
+  114  git pull
+  115  ll
+  116  it checkout main
+  117  git checkout main
+  118  git pull
+  119  git checkout dev 
+  120  git pull
+  121  git pull dev
+  122  ll
+  123  git pull
+  124  git pull https://github.com/yogeshyadava/9am-batch-Data-eng.git
+  125  ll
+  126  cd ..
+  127  ll
+  128  cd project-1/
+  129  ll
+  130  pwd
+  131  ll
+  132  cd ..
+  133  cd gitone/
+  134  ll
+  135  pwd
+  136  cd ..
+  137  git pull dev
+  138  git pull
+  139  sudo git pull
+  140  git pull https://github.com/yogeshyadava/9am-batch-Data-eng.git dev
+  141  ll
+  142  cd gitone/
+  143  ll
+  144  git brach dev
+  145  git branch
+  146  git merge main
+  147  history
